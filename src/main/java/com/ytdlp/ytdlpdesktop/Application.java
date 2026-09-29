@@ -14,7 +14,7 @@ public class Application extends javafx.application.Application {
         Scene scene = new Scene(fxmlLoader.load(), 500, 350); // Minimize Size
         stage.setMaximized(true);
 
-        stage.setScene(scene);
+        stage.setScene(scene); //hai
         stage.show();
     }
 }
