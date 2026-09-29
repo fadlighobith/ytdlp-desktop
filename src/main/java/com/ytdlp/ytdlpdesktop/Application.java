@@ -14,7 +14,7 @@ public class Application extends javafx.application.Application {
         Scene scene = new Scene(fxmlLoader.load(), 500, 350); // Minimize Size
         stage.setMaximized(true);
 
-        stage.setTitle("YT-DLP DESKTOP"); //Kenapa
+        stage.setTitle("YT-DLP DESKTOP"); //Kenapad
         stage.setScene(scene);
         stage.show();
     }
