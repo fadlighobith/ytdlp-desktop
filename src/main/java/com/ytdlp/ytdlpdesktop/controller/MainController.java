@@ -1,4 +1,4 @@
 package com.ytdlp.ytdlpdesktop.controller;
 
-public class LoginController {
+public class MainController {
 }
