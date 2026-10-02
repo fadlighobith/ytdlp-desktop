@@ -1,4 +1,5 @@
+com\ytdlp\ytdlpdesktop\helpers\Links.class
 com\ytdlp\ytdlpdesktop\Application.class
 module-info.class
 com\ytdlp\ytdlpdesktop\Launcher.class
-com\ytdlp\ytdlpdesktop\controller\HelloController.class
+com\ytdlp\ytdlpdesktop\controller\MainController.class

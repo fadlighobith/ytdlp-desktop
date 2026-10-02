@@ -1,3 +1,13 @@
 .main-bg {
-    -fx-background-color: linear-gradient(to bottom right, #2b5876, #4e4376);
+    -fx-background-color: linear-gradient(to bottom right, #5f0000, #290101);
+}
+
+.nav-opacity {
+    -fx-background-color: #0000008C;
+}
+
+.nav-button {
+    -fx-text-base-color: #ffffff;
+    -fx-font-style: italic;
+    -fx-background-color: linear-gradient(to bottom, #3E0000FF, #000000FF);
 }
