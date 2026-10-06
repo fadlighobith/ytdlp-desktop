@@ -2,6 +2,7 @@ package com.ytdlp.ytdlpdesktop.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.scene.control.ScrollPane;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.VBox;
@@ -22,6 +23,8 @@ public class MainController {
     @FXML private Button navExitButton;
     private List<Button> navButtons;
 
+    @FXML private ScrollPane pageDownload;
+
     public void initialize() {
         sidebar.setPrefWidth(155);
 
@@ -34,6 +37,8 @@ public class MainController {
         navButtons.add(navVideoInfoButton);
         navButtons.add(navAboutButton);
         navButtons.add(navExitButton);
+
+        pageDownload.setPrefWidth(345);
     }
 
     public void setupStage(Stage stage) {
@@ -64,6 +69,8 @@ public class MainController {
                             "-fx-font-size: 12px;"
                     );
                 }
+
+                pageDownload.setPrefWidth(345);
             }
         });
     }
