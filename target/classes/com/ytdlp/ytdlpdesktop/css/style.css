@@ -11,3 +11,12 @@
     -fx-font-style: italic;
     -fx-background-color: linear-gradient(to bottom, #3E0000FF, #000000FF);
 }
+
+.transparent-scroll, .transparent-scroll .viewport {
+    -fx-background-color: transparent;
+}
+
+Label.page-text {
+    -fx-text-fill: #0015ff !important;
+    -fx-font-size: 20px;
+}
